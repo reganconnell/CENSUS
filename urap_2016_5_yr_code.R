@@ -5,7 +5,7 @@ library(MASS) # Stepwise Regression
 library(leaps) # all-subsets regression
 
 # Load from csv file
-path<-"/Users/reganconnell/Desktop/urap/data/R11843265_SL040.csv"
+path<-"/Users/reganconnell/Desktop/urap/data/R11886399_SL040.csv"
 states_2016<- read.csv(file=path, header=TRUE, sep=",") 
 
 POPDEN <- states_2016$SE_T002_002
